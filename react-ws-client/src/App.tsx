@@ -1,7 +1,6 @@
-import React from 'react';
 import { useState } from 'react';
-import { Login } from './components/Login';
 import { Home } from './Home';
+import { Login } from './components/Login';
 
 function App() {
   const [username, setUsername] = useState<string>('');

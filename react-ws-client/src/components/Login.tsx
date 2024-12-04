@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export function Login({ onSubmit }: { onSubmit: (username: string) => void }) {
   const [username, setUsername] = useState<string>('');
