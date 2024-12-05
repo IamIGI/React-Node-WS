@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import throttle from 'lodash.throttle';
 import useWebSocket from 'react-use-websocket';
-
 import { UserMap } from './types/index';
 import { Cursor } from './components/Cursor';
 import { UUID } from 'crypto';
